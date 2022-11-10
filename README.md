@@ -57,6 +57,14 @@ Given a list of numbers, write a function that returns a new list where all the 
 []
 ```
 
+**Example 3:**
+
+```python
+
+>>> remove_negative([-1, -3, 0])
+[0]
+```
+
 ## Problem 4
 
 Given a list of numbers, write a function that returns a new list where all the positive numbers are removed.
@@ -74,6 +82,13 @@ Given a list of numbers, write a function that returns a new list where all the 
 ```python
 >>> remove_positive([1, 3, 5])
 []
+```
+
+**Example 3:**
+
+```python
+>>> remove_positive([1, 3, 5, 0])
+[0]
 ```
 
 ## Problem 5
@@ -151,6 +166,13 @@ Given a list of numbers, write a function that returns a new list where all the 
 []
 ```
 
+**Example 3:**
+
+```python
+>>> square_and_remove_negative([-1, -3, 0])
+[0]
+```
+
 ## Problem 9
 
 Given a list of numbers, write a function that returns a new list where all the numbers are squared and all the positive numbers are removed.
@@ -167,6 +189,11 @@ Given a list of numbers, write a function that returns a new list where all the 
 ```python
 >>> square_and_remove_positive([1, 3, 5])
 []
+```
+
+```python
+>>> square_and_remove_positive([1, 3, 0])
+[0]
 ```
 
 ## Problem 10
@@ -202,6 +229,13 @@ Given a list of numbers, write a function that returns a new list where all the 
 **Example 2:**
 
 ```python
+>>> remove_max([1, 2, 0, 3, 3])
+[1, 2, 0]
+```
+
+**Example 3:**
+
+```python
 >>> remove_max([5, 5, 5])
 []
 ```
@@ -219,6 +253,14 @@ Given a list of numbers, write a function that returns a new list where all the 
 ```
 
 **Example 2:**
+
+```python
+
+>>> remove_min([2, 3, 2, 1, 1, 0])
+[2, 3, 2, 0]
+```
+
+**Example 3:**
 
 ```python
 
