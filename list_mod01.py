@@ -1,4 +1,4 @@
-def main(lst):
+def remove_odd(lst):
     '''Given a list of numbers, write a function that returns a new list where all the odd numbers are removed.
 
     Args:

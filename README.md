@@ -226,3 +226,42 @@ Given a list of numbers, write a function that returns a new list where all the 
 []
 ```
 
+## Problem 13
+
+Given the list of numbers, Replace the maximum numbers in the list with 0.
+
+**Example 1:**
+
+```python
+
+>>> replace_maximum_with_0([1, 2, 3, 4, 5])
+[1, 2, 3, 4, 0]
+```
+
+**Example 2:**
+
+```python
+
+>>> replace_maximum_with_0([1, 2, -1, 0, 3, 3, 3])
+[1, 2, -1, 0, 0, 0, 0]
+```
+
+## Problem 14
+
+Given the list of numbers, Replace the mininum numbers in the list with 0.
+
+**Example 1:**
+
+```python
+
+>>> replace_minimun_with_0([1, 2, 3, 4, 5])
+[0, 2, 3, 4, 5]
+```
+
+**Example 2:**
+
+```python
+
+>>> replace_minimun_with_0([1, 2, -1, 0, 3, -1])
+[1, 2, 0, 0, 3, 0]
+```
